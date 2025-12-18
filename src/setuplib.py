@@ -6,6 +6,7 @@ Copyright (c) 2025 Peter Triesberger
 For further information see https://github.com/peter88213/nv_bw_icons
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
+from configparser import ConfigParser
 import os
 from pathlib import Path
 from shutil import copy2
@@ -33,6 +34,15 @@ def extract_tree(sourceDir, targetDir):
 
 def cp_tree(sourceDir, targetDir):
     copytree(sourceDir, f'{targetDir}/{sourceDir}', dirs_exist_ok=True)
+
+
+def set_icons(iniFile):
+    print(f'Setting the icons ...\n')
+    config = ConfigParser()
+    config.read(iniFile, encoding='utf-8')
+    config['SETTINGS']['icon_set'] = 'nv_bw_icons'
+    with open(iniFile, 'w', encoding='utf-8') as f:
+        config.write(f)
 
 
 def install(zipped):
@@ -63,6 +73,7 @@ def install(zipped):
         copy_tree('nv_bw_icons', applicationDir)
 
         # Edit the configuration.
+        set_icons(f'{applicationDir}/config/novx.ini')
 
         # Show a success message.
         print(
