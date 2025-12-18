@@ -13,9 +13,19 @@ If [novelibre](https://github.com/peter88213/novelibre/) is installed, the setup
 
 ---
 
-# Operation
+## How to restore the original icons
+
+After uninstalling the *nv_bw_icons* plugin via the plugin manager, restart *novelibre*.
 
 ---
+
+## Credits
+
+- The *novelibre* logo is made using the free *Pusab* font by Ryoichi Tsunekawa, [Flat-it](http://flat-it.com/).
+- The icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), published under the [MIT License](http://www.opensource.org/licenses/mit-license.php). 
+  Some of the shapes were modified for this plugin by the maintainer.  
+
+----
 
 # License
 

@@ -9,4 +9,4 @@
 
 - Release under the GPLv3 license.
 
-Compatibility: novelibre version 5.0 API
+Compatibility: novelibre version 5.47 API
