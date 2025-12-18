@@ -58,9 +58,11 @@ def install(zipped):
         print(f'Copying "{PLUGIN}" ...')
         copy_file(PLUGIN, pluginDir)
 
-        # Install the localization files.
-        print('Copying locale ...')
-        copy_tree('locale', applicationDir)
+        # Install the icon files.
+        print('Copying icons ...')
+        copy_tree('nv_bw_icons', applicationDir)
+
+        # Edit the configuration.
 
         # Show a success message.
         print(
