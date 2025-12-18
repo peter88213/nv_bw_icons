@@ -49,6 +49,13 @@ See the [online manual](docs/usage.md)
 
 ---
 
+## Credits
+
+- The *novelibre* logo is made using the free *Pusab* font by Ryoichi Tsunekawa, [Flat-it](http://flat-it.com/).
+- The icons are based on the [Eva Icons](https://akveo.github.io/eva-icons/#/), published under the [MIT License](http://www.opensource.org/licenses/mit-license.php). The original black and white icons were colored for this application by the maintainer. 
+
+----
+
 ## License
 
 This is Open Source software, and the *nv_bw_icons* plugin is licensed under GPLv3. See the
