@@ -5,6 +5,13 @@
 ## Changelog
 
 
+### Version 5.1.0
+
+- Icon set update, using transparency.
+
+Compatibility: novelibre version 5.47 API
+
+
 ### Version 5.0.0
 
 - Release under the GPLv3 license.
