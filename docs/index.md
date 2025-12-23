@@ -4,7 +4,7 @@
 
 # Index
 
-A [novelibre](https://github.com/peter88213/novelibre/) plugin providing a "black/white" icon set.
+A [novelibre](https://github.com/peter88213/novelibre/) plugin providing a monochrome icon set.
 
 - [User guide](help) 
 - [Give feedback or ask a question](https://github.com/peter88213/novelibre/discussions)

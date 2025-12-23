@@ -5,6 +5,13 @@
 ## Changelog
 
 
+### Version 5.1.1
+
+- Changed the wording, replacing "black/white" with "monochrome".
+
+Compatibility: novelibre version 5.47 API
+
+
 ### Version 5.1.0
 
 - Icon set update, using transparency.

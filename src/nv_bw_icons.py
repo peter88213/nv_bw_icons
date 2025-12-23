@@ -1,4 +1,4 @@
-"""A "black/white" icon set for novelibre.
+"""A monochrome icon set for novelibre.
 
 Requires Python 3.7+
 Copyright (c) 2025 Peter Triesberger
@@ -25,7 +25,7 @@ class Plugin:
     """Icon set plugin class."""
     VERSION = '@release'
     API_VERSION = '5.47'
-    DESCRIPTION = 'Black/white icon set'
+    DESCRIPTION = 'Monochrome icon set'
     URL = 'https://github.com/peter88213/nv_bw_icons'
 
     HELP_URL = 'https://peter88213.github.io/nv_bw_icons/help/'

@@ -8,7 +8,7 @@
 
 The [novelibre](https://github.com/peter88213/novelibre/) Python program helps authors organize novels.  
 
-*nv_bw_icons* is a plugin providing a "black/white" icon set.
+*nv_bw_icons* is a plugin providing a monochrome icon set.
 
 
 ![Screenshot](docs/Screenshots/screen01.png)
