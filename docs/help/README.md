@@ -1,4 +1,4 @@
-[Project homepage](https://github.com/peter88213/nv_bw_icons) > [Index](../) > User guide
+[Project homepage](https://github.com/peter88213/nv_bw_icons) > User guide
 
 ---
 
