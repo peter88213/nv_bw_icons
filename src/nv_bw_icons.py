@@ -31,6 +31,7 @@ class Plugin:
     HELP_URL = 'https://peter88213.github.io/nv_bw_icons/help/'
 
     def install(self, model, view, controller):
+        """Install the plugin at runtime."""
         try:
             homeDir = str(Path.home()).replace('\\', '/')
             self.iconPath = f'{homeDir}/.novx/nv_bw_icons'
