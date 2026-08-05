@@ -6,9 +6,7 @@
 
 This page refers to the latest 
 [nv_bw_icons](https://github.com/peter88213/nv_bw_icons/) release.
-You can open it with **Help > nv_bw_icons help**.
-
-The plugin adds a **nv_bw_icons Help** entry to the **Help** menu. 
+You can open it with **Help > nv_bw_icons plugin help**.
 
 ---
 

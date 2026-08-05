@@ -1,7 +1,7 @@
 """A monochrome icon set for novelibre.
 
 Requires Python 3.7+
-Copyright (c) 2025 Peter Triesberger
+Copyright (c) Peter Triesberger
 For further information see https://github.com/peter88213/nv_bw_icons
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 
@@ -26,6 +26,8 @@ class Plugin:
     API_VERSION = '5.63'
     DESCRIPTION = 'Monochrome icon set'
     URL = 'https://github.com/peter88213/nv_bw_icons'
+    HELP_SITE = 'https://peter88213.github.io/nv_bw_icons'
+    HELP_PAGE = 'help'
 
     def install(self, model, view, controller):
         """Install the plugin at runtime."""
@@ -40,17 +42,7 @@ class Plugin:
                 f'"{os.path.normpath(self.iconPath)}".'
             )
 
-        def open_help():
-            self._ctrl.helpService.open_help_page(
-                'help',
-                site='https://peter88213.github.io/nv_bw_icons'
-            )
-
-        # Add an entry to the Help menu.
-        view.helpMenu.add_command(
-            label='nv_bw_icons help',
-            command=self.open_help,
-        )
+        self._add_help_menu_entry('nv_bw_icons plugin help')
 
     def uninstall(self):
         if self.iconPath is not None:
