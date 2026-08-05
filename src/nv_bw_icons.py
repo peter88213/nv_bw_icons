@@ -19,8 +19,10 @@ import os
 from pathlib import Path
 import shutil
 
+from nvlib.controller.plugin.plugin_base import PluginBase
 
-class Plugin:
+
+class Plugin(PluginBase):
     """Icon set plugin class."""
     VERSION = '@release'
     API_VERSION = '5.63'
@@ -31,6 +33,7 @@ class Plugin:
 
     def install(self, model, view, controller):
         """Install the plugin at runtime."""
+        super().install(model, view, controller)
         try:
             homeDir = str(Path.home()).replace('\\', '/')
             self.iconPath = f'{homeDir}/.novx/nv_bw_icons'
@@ -41,6 +44,8 @@ class Plugin:
                 'Icons not found:'
                 f'"{os.path.normpath(self.iconPath)}".'
             )
+
+        #--- Configure the user interface.
 
         self._add_help_menu_entry('nv_bw_icons plugin help')
 
